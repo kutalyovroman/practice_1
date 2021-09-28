@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	margin: 0px auto;
+	width: 1020px;
+}
+
+.head {
+	margin: 100px 350px auto 87px;
+}
+
+.block-1__text{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	color: #4B4B4B;
+	margin: 0px 87px 0px 0px;
+}
+.block-2__text{
+	font-family: Roboto;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 42px;
+	letter-spacing: 0px;
+	text-align: left;
+	margin: 54px auto 36px;
+
+}
+.block-3__text{
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.15000000596046448px;
+text-align: left;
+margin: 0px 87px;
+
+}
+.block-3__img{
+	margin: 54px 87px -250px 87px;
+	text-align: center;
+	
+}
+
+.card{
+	background-color: #CDCDCD;
+}
+.cards__content{
+	margin: 54px 350px 50px 87px;
+	padding-top: 100px;
+	
+}
+.cards__title{
+padding-top: 160px;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 2.5px;
+text-align: left;
+margin-bottom: 30px;
+
+}
+.cards__subtitle{
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 900;
+line-height: 42px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.cards{
+	text-align: center;
+	margin: 0px 24px;
+	padding-bottom: 150px;
+}
+.cards-1{
+	width: 324px;
+	height: 340px;
+	background-color: white;
+	display: inline-block;
+	margin: 30px 50px 0px 30px;
+}
+.img {
+	padding: 50px 130px 33px 131px;
+}
+
+.cards-1__title{
+	font-family: Roboto;
+	font-size: 19px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 26px;
+	letter-spacing: 0px;
+	text-align: center;
+	padding: 0px 43px 20px 44px;
+}
+.cards-1__text{
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.15000000596046448px;
+	text-align: center;
+	padding: 0px 46px 49px 43px;
+}
+.cards-2{
+	width: 324px;
+	height: 340px;
+	background-color: white;
+	display: inline-block;
+}
+.cards-2__title{
+	font-family: Roboto;
+	font-size: 19px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 26px;
+	letter-spacing: 0px;
+	text-align: center;
+	padding: 0px 43px 20px 44px;
+}
+.cards-2__text{
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.15000000596046448px;
+	text-align: center;
+	padding: 0px 46px 49px 43px;
+}
+.shop-terms{
+	padding-top: 100px;
+	background-color: #CDCDCD;
+}
+.shop-terms__title{
+	font-family: Poppins;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 48px;
+	letter-spacing: 0px;
+	text-align: left;
+	padding-left: 87px;
+}
+.shop-terms__subtitle{
+	font-family: Poppins;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 36px;
+	letter-spacing: 0px;
+	text-align: left;
+	padding-left: 87px;
+	padding-top: 26px;	
+}
+
+.title {
+	padding: 15px 0px 0px 87px;
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 26px;
+	letter-spacing: 0px;
+	text-align: left;
+
+}
+.text {
+	padding: 8px 0px 0px 87px;	
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 26px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+.definitions__list{
+	padding: 8px 0px 0px 46px;	
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 26px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+.hignest{
+	background-color: tomato;
+	padding-bottom: 40px;
+}
+.hignest__img{
+	text-align: left;
+	padding: 30px 0px 0px 92px;
+}
+.hignest__title{
+	font-family: Poppins;
+	font-size: 44px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 58px;
+	letter-spacing: 0px;
+	text-align: left;
+	padding: 7px 0px 0px 92px;
+}
+.hignest__text{
+	font-family: Poppins;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 26px;
+	letter-spacing: 0px;
+	text-align: left;
+	padding: 25px 0px 0px 92px;
+}
+
+.footer {
+	padding-top: 30px;
+	text-align: center;
+}
